@@ -30,6 +30,6 @@ def create_app(test_config=None):
 
     # Add database to app 
     from . import db
-    db.init_db(app)
+    db.init_app(app)
     
     return app
